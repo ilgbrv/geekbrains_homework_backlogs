@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;  /* Ограничиваем ширину */
+    margin: 0 auto;    /* Центрируем */
+    padding: 20px;
+    word-wrap: break-word;  /* Перенос слов */
+}
+
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>
+        {% block title %}
+        Мой Сайт
+        {% endblock %}
+    </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('shoes') }}">Обувь</a></li>
+                <li><a href="{{ url_for('clothes') }}">Одежда</a></li>
+                <li><a href="{{ url_for('coat') }}">Куртка</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {% block content %}
+        Страница не заполнена
+        {% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+</body>
+</html>
